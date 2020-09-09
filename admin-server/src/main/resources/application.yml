@@ -1,0 +1,28 @@
+spring:
+  boot:
+    admin:
+      notify:
+        mail:
+          from: zhb923604825@163.com
+          to: zhb923604825@163.com
+  mail:
+    host: smtp.163.com
+    username: zhb923604825@163.com
+    password: GXUTHXEYWRBAOKZS
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+  application:
+    name: admin-server
+  security:
+    user:
+      name: admin
+      password: 123456
+      roles: SBA_ADMIN
+server:
+  port: 20000
+

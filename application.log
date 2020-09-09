@@ -1,0 +1,169 @@
+[34m09-09 13:04:02[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.AdminClientApplication[0;39m   - [34mStarting AdminClientApplication on zhenghengbindeMacBook-Pro.local with PID 2131 (/Users/zhenghengbin/code/springboot-admin-demo/admin-client/target/classes started by zhenghengbin in /Users/zhenghengbin/code/springboot-admin-demo)[0;39m 
+[34m09-09 13:04:02[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.AdminClientApplication[0;39m   - [34mNo active profile set, falling back to default profiles: default[0;39m 
+[34m09-09 13:04:03[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m   - [34mTomcat initialized with port(s): 20001 (http)[0;39m 
+[34m09-09 13:04:03[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.StandardService[0;39m   - [34mStarting service [Tomcat][0;39m 
+[34m09-09 13:04:03[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.StandardEngine[0;39m   - [34mStarting Servlet engine: [Apache Tomcat/9.0.24][0;39m 
+[34m09-09 13:04:03[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][0;39m   - [34mInitializing Spring embedded WebApplicationContext[0;39m 
+[34m09-09 13:04:03[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m   - [34mRoot WebApplicationContext: initialization completed in 1160 ms[0;39m 
+[34m09-09 13:04:03[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar[0;39m   - [34mRegistered '/actuator/jolokia' to jolokia-actuator-endpoint[0;39m 
+[34m09-09 13:04:03[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m   - [34mInitializing ExecutorService 'applicationTaskExecutor'[0;39m 
+[34m09-09 13:04:04[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskScheduler[0;39m   - [34mInitializing ExecutorService[0;39m 
+[34m09-09 13:04:04[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.boot.actuate.endpoint.web.EndpointLinksResolver[0;39m   - [34mExposing 17 endpoint(s) beneath base path '/actuator'[0;39m 
+[34m09-09 13:04:04[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m   - [34mTomcat started on port(s): 20001 (http) with context path ''[0;39m 
+[34m09-09 13:04:04[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.AdminClientApplication[0;39m   - [34mStarted AdminClientApplication in 2.105 seconds (JVM running for 2.469)[0;39m 
+[34m09-09 13:04:04[0;39m [[1;33mregistrationTask1[0;39m] | [34mINFO [0;39m | [1;32mde.codecentric.boot.admin.client.registration.ApplicationRegistrator[0;39m   - [34mApplication registered itself as 0cd903cfd0c2[0;39m 
+[34m09-09 13:04:04[0;39m [[1;33mRMI TCP Connection(2)-127.0.0.1[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][0;39m   - [34mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m 
+[34m09-09 13:04:04[0;39m [[1;33mRMI TCP Connection(2)-127.0.0.1[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.web.servlet.DispatcherServlet[0;39m   - [34mInitializing Servlet 'dispatcherServlet'[0;39m 
+[34m09-09 13:04:04[0;39m [[1;33mRMI TCP Connection(2)-127.0.0.1[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.web.servlet.DispatcherServlet[0;39m   - [34mCompleted initialization in 7 ms[0;39m 
+[34m09-09 13:04:18[0;39m [[1;33mhttp-nio-20001-exec-7[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:04:18[0;39m [[1;33mhttp-nio-20001-exec-7[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:04:18[0;39m [[1;33mhttp-nio-20001-exec-7[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:05:34[0;39m [[1;33mhttp-nio-20001-exec-2[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][0;39m   - [34mjolokia-actuator-endpoint: No access restrictor found, access to any MBean is allowed[0;39m 
+[34m09-09 13:11:44[0;39m [[1;33mregistrationTask1[0;39m] | [31mWARN [0;39m | [1;32mde.codecentric.boot.admin.client.registration.ApplicationRegistrator[0;39m   - [31mFailed to register application as Application(name=admin-client, managementUrl=http://localhost:20001/actuator, healthUrl=http://localhost:20001/actuator/health, serviceUrl=http://localhost:20001/) at spring-boot-admin ([http://localhost:20000/instances]): I/O error on POST request for "http://localhost:20000/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level[0;39m 
+[34m09-09 13:12:19[0;39m [[1;33mThread-6[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskScheduler[0;39m   - [34mShutting down ExecutorService[0;39m 
+[34m09-09 13:12:19[0;39m [[1;33mThread-6[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m   - [34mShutting down ExecutorService 'applicationTaskExecutor'[0;39m 
+[34m09-09 13:22:43[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.AdminClientApplication[0;39m   - [34mStarting AdminClientApplication on zhenghengbindeMacBook-Pro.local with PID 2183 (/Users/zhenghengbin/code/springboot-admin-demo/admin-client/target/classes started by zhenghengbin in /Users/zhenghengbin/code/springboot-admin-demo)[0;39m 
+[34m09-09 13:22:43[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.AdminClientApplication[0;39m   - [34mNo active profile set, falling back to default profiles: default[0;39m 
+[34m09-09 13:22:44[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m   - [34mTomcat initialized with port(s): 20001 (http)[0;39m 
+[34m09-09 13:22:44[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.StandardService[0;39m   - [34mStarting service [Tomcat][0;39m 
+[34m09-09 13:22:44[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.StandardEngine[0;39m   - [34mStarting Servlet engine: [Apache Tomcat/9.0.24][0;39m 
+[34m09-09 13:22:44[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][0;39m   - [34mInitializing Spring embedded WebApplicationContext[0;39m 
+[34m09-09 13:22:44[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m   - [34mRoot WebApplicationContext: initialization completed in 1074 ms[0;39m 
+[34m09-09 13:22:44[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar[0;39m   - [34mRegistered '/actuator/jolokia' to jolokia-actuator-endpoint[0;39m 
+[34m09-09 13:22:44[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m   - [34mInitializing ExecutorService 'applicationTaskExecutor'[0;39m 
+[34m09-09 13:22:45[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskScheduler[0;39m   - [34mInitializing ExecutorService[0;39m 
+[34m09-09 13:22:45[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.boot.actuate.endpoint.web.EndpointLinksResolver[0;39m   - [34mExposing 17 endpoint(s) beneath base path '/actuator'[0;39m 
+[34m09-09 13:22:45[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m   - [34mTomcat started on port(s): 20001 (http) with context path ''[0;39m 
+[34m09-09 13:22:45[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.AdminClientApplication[0;39m   - [34mStarted AdminClientApplication in 2.303 seconds (JVM running for 3.116)[0;39m 
+[34m09-09 13:22:45[0;39m [[1;33mRMI TCP Connection(2)-127.0.0.1[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][0;39m   - [34mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m 
+[34m09-09 13:22:45[0;39m [[1;33mRMI TCP Connection(2)-127.0.0.1[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.web.servlet.DispatcherServlet[0;39m   - [34mInitializing Servlet 'dispatcherServlet'[0;39m 
+[34m09-09 13:22:45[0;39m [[1;33mRMI TCP Connection(2)-127.0.0.1[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.web.servlet.DispatcherServlet[0;39m   - [34mCompleted initialization in 5 ms[0;39m 
+[34m09-09 13:22:46[0;39m [[1;33mregistrationTask1[0;39m] | [31mWARN [0;39m | [1;32mde.codecentric.boot.admin.client.registration.ApplicationRegistrator[0;39m   - [31mFailed to register application as Application(name=admin-client, managementUrl=http://localhost:20001/actuator, healthUrl=http://localhost:20001/actuator/health, serviceUrl=http://localhost:20001/) at spring-boot-admin ([http://localhost:20000/instances]): I/O error on POST request for "http://localhost:20000/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level[0;39m 
+[34m09-09 13:23:05[0;39m [[1;33mregistrationTask1[0;39m] | [34mINFO [0;39m | [1;32mde.codecentric.boot.admin.client.registration.ApplicationRegistrator[0;39m   - [34mApplication registered itself as 0cd903cfd0c2[0;39m 
+[34m09-09 13:23:29[0;39m [[1;33mhttp-nio-20001-exec-3[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][0;39m   - [34mjolokia-actuator-endpoint: No access restrictor found, access to any MBean is allowed[0;39m 
+[34m09-09 13:23:41[0;39m [[1;33mhttp-nio-20001-exec-10[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:23:41[0;39m [[1;33mhttp-nio-20001-exec-10[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:23:41[0;39m [[1;33mhttp-nio-20001-exec-10[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:23:42[0;39m [[1;33mhttp-nio-20001-exec-5[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:23:42[0;39m [[1;33mhttp-nio-20001-exec-5[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:23:42[0;39m [[1;33mhttp-nio-20001-exec-5[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:23:42[0;39m [[1;33mhttp-nio-20001-exec-3[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:23:42[0;39m [[1;33mhttp-nio-20001-exec-3[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:23:42[0;39m [[1;33mhttp-nio-20001-exec-3[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:23:42[0;39m [[1;33mhttp-nio-20001-exec-4[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:23:42[0;39m [[1;33mhttp-nio-20001-exec-4[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:23:42[0;39m [[1;33mhttp-nio-20001-exec-4[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:23:42[0;39m [[1;33mhttp-nio-20001-exec-6[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:23:42[0;39m [[1;33mhttp-nio-20001-exec-6[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:23:42[0;39m [[1;33mhttp-nio-20001-exec-6[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:23:43[0;39m [[1;33mhttp-nio-20001-exec-9[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:23:43[0;39m [[1;33mhttp-nio-20001-exec-9[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:23:43[0;39m [[1;33mhttp-nio-20001-exec-9[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:23:43[0;39m [[1;33mhttp-nio-20001-exec-5[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:23:43[0;39m [[1;33mhttp-nio-20001-exec-5[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:23:43[0;39m [[1;33mhttp-nio-20001-exec-5[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:23:43[0;39m [[1;33mhttp-nio-20001-exec-3[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:23:43[0;39m [[1;33mhttp-nio-20001-exec-3[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:23:43[0;39m [[1;33mhttp-nio-20001-exec-3[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:23:43[0;39m [[1;33mhttp-nio-20001-exec-8[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:23:43[0;39m [[1;33mhttp-nio-20001-exec-8[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:23:43[0;39m [[1;33mhttp-nio-20001-exec-8[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:24:28[0;39m [[1;33mThread-7[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskScheduler[0;39m   - [34mShutting down ExecutorService[0;39m 
+[34m09-09 13:24:28[0;39m [[1;33mThread-7[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m   - [34mShutting down ExecutorService 'applicationTaskExecutor'[0;39m 
+[34m09-09 13:33:39[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.AdminClientApplication[0;39m   - [34mStarting AdminClientApplication on zhenghengbindeMacBook-Pro.local with PID 2213 (/Users/zhenghengbin/code/springboot-admin-demo/admin-client/target/classes started by zhenghengbin in /Users/zhenghengbin/code/springboot-admin-demo)[0;39m 
+[34m09-09 13:33:39[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.AdminClientApplication[0;39m   - [34mNo active profile set, falling back to default profiles: default[0;39m 
+[34m09-09 13:33:40[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m   - [34mTomcat initialized with port(s): 20001 (http)[0;39m 
+[34m09-09 13:33:40[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.StandardService[0;39m   - [34mStarting service [Tomcat][0;39m 
+[34m09-09 13:33:40[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.StandardEngine[0;39m   - [34mStarting Servlet engine: [Apache Tomcat/9.0.24][0;39m 
+[34m09-09 13:33:40[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][0;39m   - [34mInitializing Spring embedded WebApplicationContext[0;39m 
+[34m09-09 13:33:40[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m   - [34mRoot WebApplicationContext: initialization completed in 846 ms[0;39m 
+[34m09-09 13:33:40[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar[0;39m   - [34mRegistered '/actuator/jolokia' to jolokia-actuator-endpoint[0;39m 
+[34m09-09 13:33:40[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m   - [34mInitializing ExecutorService 'applicationTaskExecutor'[0;39m 
+[34m09-09 13:33:40[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskScheduler[0;39m   - [34mInitializing ExecutorService[0;39m 
+[34m09-09 13:33:41[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.boot.actuate.endpoint.web.EndpointLinksResolver[0;39m   - [34mExposing 17 endpoint(s) beneath base path '/actuator'[0;39m 
+[34m09-09 13:33:41[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m   - [34mTomcat started on port(s): 20001 (http) with context path ''[0;39m 
+[34m09-09 13:33:41[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.AdminClientApplication[0;39m   - [34mStarted AdminClientApplication in 2.063 seconds (JVM running for 2.949)[0;39m 
+[34m09-09 13:33:41[0;39m [[1;33mregistrationTask1[0;39m] | [34mINFO [0;39m | [1;32mde.codecentric.boot.admin.client.registration.ApplicationRegistrator[0;39m   - [34mApplication registered itself as 0cd903cfd0c2[0;39m 
+[34m09-09 13:33:41[0;39m [[1;33mhttp-nio-20001-exec-1[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][0;39m   - [34mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m 
+[34m09-09 13:33:41[0;39m [[1;33mhttp-nio-20001-exec-1[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.web.servlet.DispatcherServlet[0;39m   - [34mInitializing Servlet 'dispatcherServlet'[0;39m 
+[34m09-09 13:33:41[0;39m [[1;33mhttp-nio-20001-exec-1[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.web.servlet.DispatcherServlet[0;39m   - [34mCompleted initialization in 5 ms[0;39m 
+[34m09-09 13:37:49[0;39m [[1;33mhttp-nio-20001-exec-10[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:37:49[0;39m [[1;33mhttp-nio-20001-exec-10[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:37:49[0;39m [[1;33mhttp-nio-20001-exec-10[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:37:49[0;39m [[1;33mhttp-nio-20001-exec-3[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:37:49[0;39m [[1;33mhttp-nio-20001-exec-3[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:37:49[0;39m [[1;33mhttp-nio-20001-exec-3[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-4[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-4[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-4[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-6[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-6[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-6[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-8[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-8[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-8[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-10[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-10[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-10[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-1[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-1[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-1[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-2[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-2[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:37:50[0;39m [[1;33mhttp-nio-20001-exec-2[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:41:32[0;39m [[1;33mhttp-nio-20001-exec-7[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:41:32[0;39m [[1;33mhttp-nio-20001-exec-7[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:41:32[0;39m [[1;33mhttp-nio-20001-exec-7[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:41:32[0;39m [[1;33mhttp-nio-20001-exec-8[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:41:32[0;39m [[1;33mhttp-nio-20001-exec-8[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:41:32[0;39m [[1;33mhttp-nio-20001-exec-8[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:41:32[0;39m [[1;33mhttp-nio-20001-exec-9[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:41:32[0;39m [[1;33mhttp-nio-20001-exec-9[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:41:32[0;39m [[1;33mhttp-nio-20001-exec-9[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:41:32[0;39m [[1;33mhttp-nio-20001-exec-3[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:41:32[0;39m [[1;33mhttp-nio-20001-exec-3[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:41:32[0;39m [[1;33mhttp-nio-20001-exec-3[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:41:32[0;39m [[1;33mhttp-nio-20001-exec-6[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 13:41:32[0;39m [[1;33mhttp-nio-20001-exec-6[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:41:32[0;39m [[1;33mhttp-nio-20001-exec-6[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:41:52[0;39m [[1;33mhttp-nio-20001-exec-5[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][0;39m   - [34mjolokia-actuator-endpoint: No access restrictor found, access to any MBean is allowed[0;39m 
+[34m09-09 13:43:05[0;39m [[1;33mhttp-nio-20001-exec-2[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:43:05[0;39m [[1;33mhttp-nio-20001-exec-2[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:43:05[0;39m [[1;33mhttp-nio-20001-exec-9[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:43:05[0;39m [[1;33mhttp-nio-20001-exec-9[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:43:05[0;39m [[1;33mhttp-nio-20001-exec-3[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 13:43:05[0;39m [[1;33mhttp-nio-20001-exec-3[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 13:46:30[0;39m [[1;33mThread-7[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskScheduler[0;39m   - [34mShutting down ExecutorService[0;39m 
+[34m09-09 13:46:30[0;39m [[1;33mThread-7[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m   - [34mShutting down ExecutorService 'applicationTaskExecutor'[0;39m 
+[34m09-09 18:32:33[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.AdminClientApplication[0;39m   - [34mStarting AdminClientApplication on zhenghengbindeMacBook-Pro.local with PID 4922 (/Users/zhenghengbin/code/springboot-admin-demo/admin-client/target/classes started by zhenghengbin in /Users/zhenghengbin/code/springboot-admin-demo)[0;39m 
+[34m09-09 18:32:33[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.AdminClientApplication[0;39m   - [34mNo active profile set, falling back to default profiles: default[0;39m 
+[34m09-09 18:32:34[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m   - [34mTomcat initialized with port(s): 20001 (http)[0;39m 
+[34m09-09 18:32:34[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.StandardService[0;39m   - [34mStarting service [Tomcat][0;39m 
+[34m09-09 18:32:34[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.StandardEngine[0;39m   - [34mStarting Servlet engine: [Apache Tomcat/9.0.24][0;39m 
+[34m09-09 18:32:34[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][0;39m   - [34mInitializing Spring embedded WebApplicationContext[0;39m 
+[34m09-09 18:32:34[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m   - [34mRoot WebApplicationContext: initialization completed in 926 ms[0;39m 
+[34m09-09 18:32:34[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar[0;39m   - [34mRegistered '/actuator/jolokia' to jolokia-actuator-endpoint[0;39m 
+[34m09-09 18:32:34[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m   - [34mInitializing ExecutorService 'applicationTaskExecutor'[0;39m 
+[34m09-09 18:32:34[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskScheduler[0;39m   - [34mInitializing ExecutorService[0;39m 
+[34m09-09 18:32:35[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.boot.actuate.endpoint.web.EndpointLinksResolver[0;39m   - [34mExposing 17 endpoint(s) beneath base path '/actuator'[0;39m 
+[34m09-09 18:32:35[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m   - [34mTomcat started on port(s): 20001 (http) with context path ''[0;39m 
+[34m09-09 18:32:35[0;39m [[1;33mmain[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.AdminClientApplication[0;39m   - [34mStarted AdminClientApplication in 1.857 seconds (JVM running for 2.258)[0;39m 
+[34m09-09 18:32:35[0;39m [[1;33mRMI TCP Connection(2)-127.0.0.1[0;39m] | [34mINFO [0;39m | [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][0;39m   - [34mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m 
+[34m09-09 18:32:35[0;39m [[1;33mRMI TCP Connection(2)-127.0.0.1[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.web.servlet.DispatcherServlet[0;39m   - [34mInitializing Servlet 'dispatcherServlet'[0;39m 
+[34m09-09 18:32:35[0;39m [[1;33mRMI TCP Connection(2)-127.0.0.1[0;39m] | [34mINFO [0;39m | [1;32morg.springframework.web.servlet.DispatcherServlet[0;39m   - [34mCompleted initialization in 5 ms[0;39m 
+[34m09-09 18:32:35[0;39m [[1;33mregistrationTask1[0;39m] | [34mINFO [0;39m | [1;32mde.codecentric.boot.admin.client.registration.ApplicationRegistrator[0;39m   - [34mApplication registered itself as 0cd903cfd0c2[0;39m 
+[34m09-09 18:39:32[0;39m [[1;33mhttp-nio-20001-exec-10[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 18:39:32[0;39m [[1;33mhttp-nio-20001-exec-10[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 18:39:32[0;39m [[1;33mhttp-nio-20001-exec-10[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 18:39:33[0;39m [[1;33mhttp-nio-20001-exec-5[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 18:39:33[0;39m [[1;33mhttp-nio-20001-exec-5[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 18:39:33[0;39m [[1;33mhttp-nio-20001-exec-5[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 18:39:34[0;39m [[1;33mhttp-nio-20001-exec-8[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 18:39:34[0;39m [[1;33mhttp-nio-20001-exec-8[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 18:39:34[0;39m [[1;33mhttp-nio-20001-exec-8[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 18:39:34[0;39m [[1;33mhttp-nio-20001-exec-6[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 18:39:34[0;39m [[1;33mhttp-nio-20001-exec-6[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 18:39:34[0;39m [[1;33mhttp-nio-20001-exec-6[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
+[34m09-09 18:39:34[0;39m [[1;33mhttp-nio-20001-exec-7[0;39m] | [34mINFO [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [34m=========info[0;39m 
+[34m09-09 18:39:34[0;39m [[1;33mhttp-nio-20001-exec-7[0;39m] | [31mWARN [0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [31m=========warn[0;39m 
+[34m09-09 18:39:34[0;39m [[1;33mhttp-nio-20001-exec-7[0;39m] | [1;31mERROR[0;39m | [1;32mcom.kevin.api.LogTestApi[0;39m   - [1;31m=========error[0;39m 
