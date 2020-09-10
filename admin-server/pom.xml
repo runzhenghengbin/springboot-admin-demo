@@ -8,7 +8,7 @@
         <version>2.1.8.RELEASE</version>
         <relativePath/>
     </parent>
-    <groupId>cn.felord.admin.server</groupId>
+    <groupId>com.kevin</groupId>
     <artifactId>admin-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>admin-server</name>
@@ -42,6 +42,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.68</version>
         </dependency>
     </dependencies>
 

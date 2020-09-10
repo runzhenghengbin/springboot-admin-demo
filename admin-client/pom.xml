@@ -8,7 +8,7 @@
         <version>2.1.8.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>cn.felord.admin.client</groupId>
+    <groupId>com.kevin</groupId>
     <artifactId>admin-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>admin-client</name>

@@ -2,6 +2,9 @@ spring:
   boot:
     admin:
       notify:
+        dingtalk:
+          enabled: true
+          webhook-token: https://oapi.dingtalk.com/robot/send?access_token=dd98208d71e200900b0a89c917c6532a7e0bbf3d16e67b91bf560f03c21ab2e1
         mail:
           from: zhb923604825@163.com
           to: zhb923604825@163.com
